@@ -40,6 +40,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem "pry-rails"
   gem "rspec-rails", "~> 6.1"
+  gem "dotenv-rails", "~> 3.1"
 end
 
 group :development do

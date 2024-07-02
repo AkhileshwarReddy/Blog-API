@@ -94,6 +94,10 @@ GEM
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
     docile (1.4.0)
+    dotenv (3.1.2)
+    dotenv-rails (3.1.2)
+      dotenv (= 3.1.2)
+      railties (>= 6.1)
     drb (2.2.1)
     error_highlight (0.6.0)
     erubi (1.13.0)
@@ -247,6 +251,7 @@ DEPENDENCIES
   bootsnap
   database_cleaner-active_record (~> 2.1)
   debug
+  dotenv-rails (~> 3.1)
   error_highlight (>= 0.4.0)
   factory_bot_rails (~> 6.4)
   faker (~> 3.4)
