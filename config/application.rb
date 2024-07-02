@@ -19,7 +19,7 @@ require "action_cable/engine"
 Bundler.require(*Rails.groups)
 
 if Rails.env.development? || Rails.env.test?
-  Dotenv::Railtie.load
+  Dotenv::Rails.load
 end
 
 module BlogApi
