@@ -36,3 +36,5 @@
 !.*.example
 
 database.yml
+
+.idea
