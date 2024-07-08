@@ -56,3 +56,5 @@ group :test do
   gem "database_cleaner-active_record", "~> 2.1"
   gem 'simplecov', require: false
 end
+
+gem "appsignal", "~> 3.9"

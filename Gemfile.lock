@@ -75,6 +75,8 @@ GEM
       minitest (>= 5.1)
       mutex_m
       tzinfo (~> 2.0)
+    appsignal (3.9.3)
+      rack
     base64 (0.2.0)
     bigdecimal (3.1.8)
     bootsnap (1.18.3)
@@ -248,6 +250,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  appsignal (~> 3.9)
   bootsnap
   database_cleaner-active_record (~> 2.1)
   debug
